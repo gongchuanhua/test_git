@@ -1,0 +1,72 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 Mar30 ?        00:00:41 /usr/lib/systemd/systemd --switched-root --system --deserialize 21
+root         2     0  0 Mar30 ?        00:00:00 [kthreadd]
+root         4     2  0 Mar30 ?        00:00:00 [kworker/0:0H]
+root         6     2  0 Mar30 ?        00:00:00 [mm_percpu_wq]
+root         7     2  0 Mar30 ?        00:00:18 [ksoftirqd/0]
+root         8     2  0 Mar30 ?        00:00:52 [rcu_sched]
+root         9     2  0 Mar30 ?        00:00:00 [rcu_bh]
+root        10     2  0 Mar30 ?        00:00:00 [migration/0]
+root        11     2  0 Mar30 ?        00:00:07 [watchdog/0]
+root        12     2  0 Mar30 ?        00:00:00 [cpuhp/0]
+root        13     2  0 Mar30 ?        00:00:00 [kdevtmpfs]
+root        14     2  0 Mar30 ?        00:00:00 [netns]
+root        15     2  0 Mar30 ?        00:00:00 [kauditd]
+root        16     2  0 Mar30 ?        00:00:01 [khungtaskd]
+root        17     2  0 Mar30 ?        00:00:00 [oom_reaper]
+root        18     2  0 Mar30 ?        00:00:00 [writeback]
+root        19     2  0 Mar30 ?        00:00:00 [kcompactd0]
+root        20     2  0 Mar30 ?        00:00:00 [ksmd]
+root        21     2  0 Mar30 ?        00:00:14 [khugepaged]
+root        22     2  0 Mar30 ?        00:00:00 [crypto]
+root        23     2  0 Mar30 ?        00:00:00 [kintegrityd]
+root        24     2  0 Mar30 ?        00:00:00 [kblockd]
+root        25     2  0 Mar30 ?        00:00:00 [md]
+root        26     2  0 Mar30 ?        00:00:00 [edac-poller]
+root        27     2  0 Mar30 ?        00:00:00 [devfreq_wq]
+root        28     2  0 Mar30 ?        00:00:00 [watchdogd]
+root        31     2  0 Mar30 ?        00:00:00 [kswapd0]
+root        79     2  0 Mar30 ?        00:00:00 [kthrotld]
+root        80     2  0 Mar30 ?        00:00:00 [acpi_thermal_pm]
+root        81     2  0 Mar30 ?        00:00:00 [kmpath_rdacd]
+root        82     2  0 Mar30 ?        00:00:00 [kaluad]
+root        83     2  0 Mar30 ?        00:00:00 [nvme-wq]
+root        84     2  0 Mar30 ?        00:00:00 [ipv6_addrconf]
+root        97     2  0 Mar30 ?        00:00:00 [charger_manager]
+root       266     2  0 Mar30 ?        00:00:00 [ata_sff]
+root       267     2  0 Mar30 ?        00:00:00 [scsi_eh_0]
+root       268     2  0 Mar30 ?        00:00:00 [scsi_tmf_0]
+root       269     2  0 Mar30 ?        00:00:00 [scsi_eh_1]
+root       270     2  0 Mar30 ?        00:00:00 [scsi_tmf_1]
+root       277     2  0 Mar30 ?        00:00:00 [ttm_swap]
+root       288     2  0 Mar30 ?        00:00:18 [kworker/0:1H]
+root       300     2  0 Mar30 ?        00:00:31 [jbd2/vda1-8]
+root       301     2  0 Mar30 ?        00:00:00 [ext4-rsv-conver]
+root       370     1  0 Mar30 ?        00:10:20 /usr/lib/systemd/systemd-journald
+root       393     1  0 Mar30 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+dbus       434     1  0 Mar30 ?        00:00:03 /bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+polkitd    442     1  0 Mar30 ?        00:00:01 /usr/lib/polkit-1/polkitd --no-debug
+chrony     444     1  0 Mar30 ?        00:00:04 /usr/sbin/chronyd
+root       446     1  0 Mar30 ?        00:04:56 /usr/sbin/rsyslogd -n
+root       447     1  0 Mar30 ?        00:00:05 /usr/lib/systemd/systemd-logind
+root       463     1  0 Mar30 ?        00:00:04 /usr/sbin/crond -n
+root       467     1  0 Mar30 tty1     00:00:00 /sbin/agetty --noclear tty1 linux
+root       470     1  0 Mar30 ?        00:00:02 /usr/bin/python -Es /usr/sbin/firewalld --nofork --nopid
+root       473     2  0 Mar30 ?        00:00:01 [hwrng]
+root       803     1  0 Mar30 ?        00:00:00 /sbin/dhclient -1 -q -lf /var/lib/dhclient/dhclient--eth0.lease -pf /var/run/dhclient-eth0.pid -H llhl001 eth0
+root       863     1  0 Mar30 ?        00:03:50 /usr/bin/python -Es /usr/sbin/tuned -l -P
+root       864     1  0 Mar30 ?        00:01:34 /usr/sbin/sshd -D
+root       941     1  0 Mar30 ?        00:02:03 /bin/python /usr/bin/ssserver -c /etc/shadowsocks.json -d start
+root       995     1  0 Mar30 ?        00:00:09 /usr/libexec/postfix/master -w
+postfix    997   995  0 Mar30 ?        00:00:02 qmgr -l -t unix -u
+root     18506     2  0 05:19 ?        00:00:00 [kworker/u2:0]
+postfix  19592   995  0 10:19 ?        00:00:00 pickup -l -t unix -u
+root     19753     2  0 11:00 ?        00:00:00 [kworker/u2:2]
+root     19929     2  0 11:33 ?        00:00:00 [kworker/0:2]
+root     19952   864  0 11:36 ?        00:00:00 sshd: root@pts/0
+root     19954 19952  0 11:36 pts/0    00:00:00 -bash
+root     20060     2  0 11:39 ?        00:00:00 [kworker/0:0]
+root     20098     2  0 11:44 ?        00:00:00 [kworker/0:1]
+root     20118   864  0 11:47 ?        00:00:00 sshd: [accepted]
+sshd     20119 20118  0 11:47 ?        00:00:00 sshd: [net]
+root     20120 19954  0 11:47 pts/0    00:00:00 ps -ef
